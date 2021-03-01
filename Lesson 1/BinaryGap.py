@@ -5,6 +5,7 @@ def solution(N):
     while N > 0:
         A.append(N%2)
         N = N//2
+    print(A)
     for i in range(len(A)-2,-1,-1):
         if A[i] == 0:
             counter += 1
